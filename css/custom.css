@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700|PT+Sans:400,700,400italic);
+
+
+.reveal section img
+{
+  border:0px none white;
+  box-shadow:0 0 0px rgba(0, 0, 0, 1) !important;
+}
+
+.reveal h1 {
+	font-family: Montserrat;
+	font-weight: bolder;
+}
+
+.reveal h2 {
+	font-family: Montserrat;
+	font-weight: normal;
+}
+
+.reveal h3 {
+	font-family: Montserrat;
+	font-weight: lighter;
+	text-transform: none;
+}
+
+.reveal .withbackground h1, .reveal .withbackground h2, .reveal .withbackground h3 {
+  text-shadow: 7px 7px 20px white, -7px -7px 20px white, 7px -7px 20px white, -7px 7px 20px white;
+  color: black;
+}
+
